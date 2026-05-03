@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sardarMrashed/sardar-portfolio.git/static/css/main.9fc17c0c.css",
-    "main.js": "/sardarMrashed/sardar-portfolio.git/static/js/main.ffb5a060.js",
-    "static/js/453.818aefe1.chunk.js": "/sardarMrashed/sardar-portfolio.git/static/js/453.818aefe1.chunk.js",
-    "index.html": "/sardarMrashed/sardar-portfolio.git/index.html",
-    "main.9fc17c0c.css.map": "/sardarMrashed/sardar-portfolio.git/static/css/main.9fc17c0c.css.map",
-    "main.ffb5a060.js.map": "/sardarMrashed/sardar-portfolio.git/static/js/main.ffb5a060.js.map",
-    "453.818aefe1.chunk.js.map": "/sardarMrashed/sardar-portfolio.git/static/js/453.818aefe1.chunk.js.map"
+    "main.css": "/static/css/main.9fc17c0c.css",
+    "main.js": "/static/js/main.e4b95331.js",
+    "static/js/453.818aefe1.chunk.js": "/static/js/453.818aefe1.chunk.js",
+    "index.html": "/index.html",
+    "main.9fc17c0c.css.map": "/static/css/main.9fc17c0c.css.map",
+    "main.e4b95331.js.map": "/static/js/main.e4b95331.js.map",
+    "453.818aefe1.chunk.js.map": "/static/js/453.818aefe1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc17c0c.css",
-    "static/js/main.ffb5a060.js"
+    "static/js/main.e4b95331.js"
   ]
 }
