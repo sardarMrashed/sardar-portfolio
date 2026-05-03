@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9fc17c0c.css",
-    "main.js": "/react-portfolio/static/js/main.af03251d.js",
-    "static/js/453.818aefe1.chunk.js": "/react-portfolio/static/js/453.818aefe1.chunk.js",
-    "index.html": "/react-portfolio/index.html",
-    "main.9fc17c0c.css.map": "/react-portfolio/static/css/main.9fc17c0c.css.map",
-    "main.af03251d.js.map": "/react-portfolio/static/js/main.af03251d.js.map",
-    "453.818aefe1.chunk.js.map": "/react-portfolio/static/js/453.818aefe1.chunk.js.map"
+    "main.css": "/sardarMrashed/sardar-portfolio.git/static/css/main.9fc17c0c.css",
+    "main.js": "/sardarMrashed/sardar-portfolio.git/static/js/main.ffb5a060.js",
+    "static/js/453.818aefe1.chunk.js": "/sardarMrashed/sardar-portfolio.git/static/js/453.818aefe1.chunk.js",
+    "index.html": "/sardarMrashed/sardar-portfolio.git/index.html",
+    "main.9fc17c0c.css.map": "/sardarMrashed/sardar-portfolio.git/static/css/main.9fc17c0c.css.map",
+    "main.ffb5a060.js.map": "/sardarMrashed/sardar-portfolio.git/static/js/main.ffb5a060.js.map",
+    "453.818aefe1.chunk.js.map": "/sardarMrashed/sardar-portfolio.git/static/js/453.818aefe1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc17c0c.css",
-    "static/js/main.af03251d.js"
+    "static/js/main.ffb5a060.js"
   ]
 }
