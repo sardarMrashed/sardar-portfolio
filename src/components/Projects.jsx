@@ -4,7 +4,7 @@ const projects = [
     name: 'Full-Stack Blog',
     desc: 'A full-stack blog app with React frontend and Node.js/Express backend. Full CRUD functionality with MongoDB Atlas for data storage.',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    live: 'https://fullstack-blog-iota-black.vercel.app',
+    live: 'https://sardarmrashed.github.io/fullstack-blog/',
     code: 'https://github.com/sardarMrashed/fullstack-blog',
   },
   {
