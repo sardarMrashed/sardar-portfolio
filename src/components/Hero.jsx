@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="hero-content">
         <p className="hero-greeting">👋 Hello World</p>
         <h1 className="hero-name">Sardar Mohammed</h1>
-        <p className="hero-role">Frontend Developer</p>
+        <p className="hero-role">Full-Stack Developer</p>
         <p className="hero-desc">
           I build clean, fast, and beautiful web apps using React and JavaScript.
-          Based in Sulaymaniyah, Iraq. Open to remote opportunities.
+          Based in Kurdistan, Iraq. Open to remote opportunities.
         </p>
         <div className="hero-btns">
           <a href="#projects" className="btn-primary">See my work</a>
