@@ -1,5 +1,13 @@
 const projects = [
   {
+    emoji: '📝',
+    name: 'Full-Stack Blog',
+    desc: 'A full-stack blog app with React frontend and Node.js/Express backend. Full CRUD functionality with MongoDB Atlas for data storage.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+    live: 'https://fullstack-blog-iota-black.vercel.app',
+    code: 'https://github.com/sardarMrashed/fullstack-blog',
+  },
+  {
     emoji: '✅',
     name: 'To-Do App',
     desc: 'A task manager built with React. Add, complete, delete and filter tasks. Data saved with localStorage.',
