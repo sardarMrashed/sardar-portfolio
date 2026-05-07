@@ -1,5 +1,13 @@
 const projects = [
   {
+    emoji: '🛒',
+    name: 'ShopZone Ecommerce',
+    desc: 'A full-stack ecommerce app with JWT auth, product search, cart, orders and user profile. Luxury black & gold design.',
+    tags: ['React', 'Node.js', 'MongoDB', 'JWT', 'Tailwind'],
+    live: 'https://shopzone-ecommerce-fawn.vercel.app',
+    code: 'https://github.com/sardarMrashed/shopzone-ecommerce',
+  },
+  {
     emoji: '📝',
     name: 'Full-Stack Blog',
     desc: 'A full-stack blog app with React frontend and Node.js/Express backend. Full CRUD functionality with MongoDB Atlas for data storage.',
