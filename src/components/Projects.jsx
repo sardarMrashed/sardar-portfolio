@@ -1,5 +1,13 @@
 const projects = [
   {
+  emoji: '🤖',
+  name: 'AI Resume Analyzer',
+  desc: 'Upload a PDF resume and get instant AI-powered feedback using Groq AI. Built with React and Node.js.',
+  tags: ['React', 'Node.js', 'Groq AI', 'Express'],
+  live: 'https://resume-analyzer-flax-one.vercel.app',
+  code: 'https://github.com/sardarMrashed/resume-analyzer',
+},
+  {
     emoji: '🛒',
     name: 'ShopZone Ecommerce',
     desc: 'A full-stack ecommerce app with JWT auth, product search, cart, orders and user profile. Luxury black & gold design.',
