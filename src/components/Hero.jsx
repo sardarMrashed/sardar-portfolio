@@ -3,11 +3,11 @@ export default function Hero() {
     <section className="hero" id="hero">
       <div className="hero-content">
         <p className="hero-greeting">👋 Hello World</p>
-        <h1 className="hero-name">Sardar Mohammed</h1>
-        <p className="hero-role">Full-Stack Developer</p>
+        <h1 className="hero-name">Sardar Mohammed Rashid</h1>
+        <p className="hero-role">Junior Full-Stack Developer</p>
         <p className="hero-desc">
-          I build clean, fast, and beautiful web apps using React and JavaScript.
-          Based in Kurdistan, Iraq. Open to remote opportunities.
+          I build web applications using React, JavaScript, and Node.js.
+          Based in Kurdistan, Iraq. Open to internships and junior developer opportunities.
         </p>
         <div className="hero-btns">
           <a href="#projects" className="btn-primary">See my work</a>
