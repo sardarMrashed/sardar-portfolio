@@ -74,10 +74,6 @@ function ArrowIcon({ size = 18 }) {
 function UpRightIcon({ size = 17 }) {
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>;
 }
-function GitIcon() {
-  return <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 18c-4 1-4-2-6-2m12 5v-3.5a3.1 3.1 0 0 0-.9-2.4c3-.3 6.2-1.5 6.2-6.8a5.4 5.4 0 0 0-1.4-3.7 5 5 0 0 0-.1-3.6s-1.2-.4-3.8 1.4a13 13 0 0 0-7 0C5.4.6 4.2 1 4.2 1a5 5 0 0 0-.1 3.6A5.4 5.4 0 0 0 2.7 8.3c0 5.3 3.2 6.5 6.2 6.8a3.1 3.1 0 0 0-.9 2.4V21"/></svg>;
-}
-
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
@@ -138,7 +134,7 @@ function Hero() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <div className="availability"><span className="pulse-dot"/> OPEN TO NEW OPPORTUNITIES</div>
-          <p className="eyebrow">HELLO, I'M SARDAR MOHAMMED RASHID</p>
+          <p className="eyebrow">HELLO, I&apos;M SARDAR MOHAMMED RASHID</p>
           <h1 id="hero-heading">Building <span>thoughtful digital products</span> from front to back.</h1>
           <p className="hero-description">Full-Stack JavaScript Developer based in the Kurdistan Region, Iraq. I build responsive React experiences and the Node.js APIs that power them.</p>
           <div className="hero-actions">
@@ -204,7 +200,7 @@ function Work() {
   return (
     <section id="work" className="section section-work" aria-labelledby="work-heading">
       <div className="container">
-        <div className="section-intro"><div><p className="section-kicker"><span>01</span> / SELECTED WORK</p><h2 id="work-heading">Projects with <em>purpose.</em></h2></div><p>From user-facing experiences to the server and data behind them—here is a selection of what I've built and what I'm learning.</p></div>
+        <div className="section-intro"><div><p className="section-kicker"><span>01</span> / SELECTED WORK</p><h2 id="work-heading">Projects with <em>purpose.</em></h2></div><p>From user-facing experiences to the server and data behind them—here is a selection of what I&apos;ve built and what I'm learning.</p></div>
         <div className="project-grid">{projects.map(project => <ProjectCard project={project} key={project.number}/>)}</div>
         <div className="more-work"><span>Curious about the rest?</span><a href="https://github.com/sardarMrashed?tab=repositories" target="_blank" rel="noopener noreferrer">Browse my GitHub repositories <UpRightIcon size={17}/></a></div>
       </div>
