@@ -142,3 +142,52 @@ section {
   .projects-grid { grid-template-columns: 1fr; }
   .project-card { padding: 22px; }
 }
+
+/* Recruiter-ready portfolio additions */
+:root { color-scheme: dark; }
+body { background: #090d18; color: #f8fafc; }
+.app { overflow-x: hidden; }
+section { max-width: 1080px; }
+.nav-logo { text-decoration: none; }
+.hero { background: radial-gradient(ellipse at 50% 0%, #1b2350 0%, #090d18 68%); }
+.hero-content { max-width: 790px; }
+.hero-greeting { color: #a5b4fc; letter-spacing: 0.06em; font-size: 14px; }
+.hero-name { font-size: clamp(38px, 6vw, 64px); }
+.hero-role { color: #a5b4fc; line-height: 1.5; }
+.hero-desc { max-width: 690px; margin-left: auto; margin-right: auto; color: #b4bfd0; }
+.hero-links { margin-top: 24px; color: #a5b4fc; }
+.hero-links a { color: #c7d2fe; text-decoration: none; }
+.hero-links a:hover { text-decoration: underline; }
+.section-intro { color: #9ca9bc; margin: -20px 0 30px; line-height: 1.6; }
+.skill-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.skill-group, .experience-card { background: #111827; border: 1px solid #293449; border-radius: 18px; padding: 25px; }
+.skill-group h3 { margin: 0 0 20px; font-size: 18px; }
+.skill-list { display: flex; flex-wrap: wrap; gap: 9px; }
+.skill-pill { padding: 7px 11px; border: 1px solid #334155; border-radius: 8px; background: #1c2940; color: #cbd5e1; font-size: 12px; }
+.experience-section { border-top: 1px solid rgba(255,255,255,0.05); }
+.experience-heading { display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
+.experience-heading h3 { font-size: 19px; }
+.experience-heading span { color: #a5b4fc; font-size: 13px; }
+.experience-card p { color: #cbd5e1; line-height: 1.7; }
+.experience-card .experience-note { font-size: 12px; color: #8794a8; margin-top: 12px; }
+.project-card { background: #111827; border-color: #293449; display: flex; flex-direction: column; }
+.project-topline { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 15px; }
+.project-emoji { margin: 0; }
+.project-status { color: #a5b4fc; font-size: 11px; border: 1px solid #414b75; padding: 6px 9px; border-radius: 20px; }
+.project-name { color: #f8fafc; }
+.project-desc { color: #b4bfd0; flex-grow: 1; }
+.project-links { margin-top: auto; flex-wrap: wrap; }
+.project-link { color: #c7d2fe; font-weight: 600; }
+.btn-primary { background: #6366f1; }
+.btn-primary:hover { background: #4f46e5; }
+@media (max-width: 760px) {
+  .skill-groups { grid-template-columns: 1fr; }
+  .navbar { padding: 12px 16px; align-items: start; }
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 12px; }
+  .hero { padding-top: 160px; }
+}
+@media (max-width: 380px) {
+  .navbar { position: static; }
+  .hero { padding-top: 75px; }
+}
